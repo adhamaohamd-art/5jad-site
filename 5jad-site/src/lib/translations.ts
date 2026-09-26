@@ -1,0 +1,110 @@
+export type Lang = 'EN' | 'AR';
+
+export const dict = {
+  'nav.home': { EN: 'Home', AR: 'الرئيسية' },
+  'nav.about': { EN: 'About Us', AR: 'من نحن' },
+  'nav.courses': { EN: 'Courses', AR: 'الكورسات' },
+  'nav.feedback': { EN: 'Feedback', AR: 'آراء الطلاب' },
+  'nav.signIn': { EN: 'Sign in', AR: 'تسجيل الدخول' },
+
+  'hero.title1': { EN: 'New way of', AR: 'طريقة جديدة' },
+  'hero.titleEm': { EN: 'learning.', AR: 'للتعلّم.' },
+  'hero.desc': { EN: 'Discover thoughtful courses from industry experts. Learn at your own pace, build real skills, and create a future you are proud of.', AR: 'اكتشف كورسات مدروسة من خبراء في مجالهم. اتعلّم بالسرعة اللي تناسبك، وابنِ مهارات حقيقية، واصنع مستقبل تفتخر بيه.' },
+  'hero.explore': { EN: 'Explore courses', AR: 'استكشف الكورسات' },
+  'hero.student': { EN: 'I am a student', AR: 'أنا طالب' },
+  'hero.note': { EN: 'Join 50k+ curious learners', AR: 'انضم لأكتر من 50 ألف متعلّم' },
+
+  'stats.learners': { EN: 'active learners', AR: 'متعلّم نشط' },
+  'stats.instructors': { EN: 'expert instructors', AR: 'مدرّب خبير' },
+  'stats.completion': { EN: 'completion rate', AR: 'نسبة إتمام' },
+
+  'popular.label': { EN: 'Learn something new', AR: 'اتعلّم حاجة جديدة' },
+  'popular.title': { EN: 'Most popular courses', AR: 'أكثر الكورسات طلبًا' },
+  'popular.seeAll': { EN: 'See all courses', AR: 'كل الكورسات' },
+
+  'about.label': { EN: 'A better way forward', AR: 'طريق أفضل للمستقبل' },
+  'about.title1': { EN: 'Learning that fits', AR: 'تعلّم يناسب' },
+  'about.titleEm': { EN: 'your life.', AR: 'حياتك.' },
+  'about.discover': { EN: 'Discover our approach', AR: 'اكتشف طريقتنا' },
+
+  'feedback.label': { EN: 'From our community', AR: 'من مجتمعنا' },
+  'feedback.title': { EN: 'Learners say it best', AR: 'آراء طلابنا' },
+  'feedback.empty': { EN: 'No feedback yet', AR: 'لا يوجد تقييمات بعد' },
+  'feedback.emptyDesc': { EN: 'Student feedback will appear here soon.', AR: 'هتظهر هنا آراء الطلاب قريبًا.' },
+
+  'courses.backHome': { EN: '← Back home', AR: '← الرئيسية' },
+  'courses.label': { EN: 'Make space to grow', AR: 'اعمل مساحة للنمو' },
+  'courses.title': { EN: 'All courses', AR: 'كل الكورسات' },
+  'courses.desc': { EN: 'Small steps, useful skills, and a library designed to meet you where you are.', AR: 'خطوات بسيطة، مهارات مفيدة، ومكتبة كورسات مصممة عشان تناسب مستواك.' },
+  'courses.search': { EN: 'Search courses', AR: 'ابحث عن كورس' },
+  'courses.all': { EN: 'All courses', AR: 'كل الكورسات' },
+  'courses.empty': { EN: 'No courses yet', AR: 'لا يوجد كورسات بعد' },
+  'courses.emptyDesc': { EN: 'New courses will appear here soon.', AR: 'هتظهر هنا كورسات جديدة قريبًا.' },
+  'courses.notFound': { EN: 'No courses found', AR: 'مفيش كورسات مطابقة' },
+  'courses.tryDifferent': { EN: 'Try a different search term.', AR: 'جرّب كلمة بحث مختلفة.' },
+
+  'detail.back': { EN: '← All courses', AR: '← كل الكورسات' },
+  'detail.guided': { EN: 'A guided learning path', AR: 'مسار تعلّم موجّه' },
+  'detail.lessons': { EN: 'lessons', AR: 'درس' },
+  'detail.learn': { EN: 'What you will learn', AR: 'هتتعلم إيه' },
+  'detail.point1': { EN: 'Build a confident foundation', AR: 'تبني أساس قوي وواثق' },
+  'detail.point2': { EN: 'Practice with real-world exercises', AR: 'تتمرّن بتمارين واقعية' },
+  'detail.point3': { EN: 'Leave with work you can be proud of', AR: 'تخرج بشغل تفتخر بيه' },
+  'detail.startToday': { EN: 'Start learning today', AR: 'ابدأ التعلّم النهارده' },
+  'detail.oneTime': { EN: 'one-time', AR: 'دفعة واحدة' },
+  'detail.getAccess': { EN: 'Get lifetime access to every lesson, material, and future update.', AR: 'احصل على وصول دائم لكل الدروس والمواد وأي تحديث جديد.' },
+  'detail.enroll': { EN: 'Enroll in this course', AR: 'اشترك في الكورس' },
+  'detail.secure': { EN: 'Secure enrollment · cancel anytime', AR: 'اشتراك آمن · إلغاء في أي وقت' },
+
+  'auth.backHome': { EN: '← Back home', AR: '← الرئيسية' },
+  'auth.tagline': { EN: 'Your learning space', AR: 'مساحتك التعليمية' },
+  'auth.title1': { EN: 'Make room for', AR: 'اعمل مكان' },
+  'auth.titleEm': { EN: 'what is next.', AR: 'لخطوتك الجاية.' },
+  'auth.desc': { EN: 'Sign in with your Gmail account to continue learning and manage your subscription.', AR: 'سجّل دخولك بحساب Gmail عشان تكمّل التعلّم وتدير اشتراكك.' },
+  'auth.quote': { EN: 'The secret of getting ahead is getting started.', AR: 'سرّ التقدّم هو أن تبدأ.' },
+  'auth.quoteAuthor': { EN: '— Mark Twain', AR: '— مارك توين' },
+  'auth.welcome': { EN: 'Welcome to 5JAD', AR: 'أهلًا بيك في 5JAD' },
+  'auth.continueDesc': { EN: 'Continue with your Google account to sign in or create your free account instantly.', AR: 'تابع بحساب جوجل عشان تسجّل الدخول أو تعمل حساب مجاني فورًا.' },
+  'auth.continueGoogle': { EN: 'Continue with Google', AR: 'المتابعة بحساب جوجل' },
+  'auth.pleaseWait': { EN: 'Please wait…', AR: 'لحظة من فضلك…' },
+  'auth.terms': { EN: 'By continuing, you agree to our Terms and Privacy Policy.', AR: 'بمتابعتك، إنت موافق على الشروط وسياسة الخصوصية.' },
+
+  'plans.backHome': { EN: '← Home', AR: '← الرئيسية' },
+  'plans.label': { EN: 'One step closer', AR: 'خطوة واحدة كمان' },
+  'plans.title': { EN: 'Choose your learning plan.', AR: 'اختار باقتك التعليمية.' },
+  'plans.desc': { EN: 'Subscribe once your payment is approved, and your full dashboard will open up.', AR: 'اشترك واستنى موافقة الأدمن على الدفع، وهتفتح لك كل لوحتك التعليمية.' },
+  'plans.choose': { EN: 'Choose plan', AR: 'اختار الباقة' },
+  'plans.mostPopular': { EN: 'Most popular', AR: 'الأكثر طلبًا' },
+  'plans.noteTitle': { EN: 'Manual payment, personal support.', AR: 'دفع يدوي ودعم شخصي.' },
+  'plans.noteDesc': { EN: 'After choosing a plan, you will see Vodafone Cash and InstaPay instructions. Send your receipt for approval and we will unlock your space.', AR: 'بعد اختيار الباقة، هتشوف أرقام فودافون كاش وإنستاباي. ابعت إيصال التحويل عشان نوافق ونفتحلك مساحتك.' },
+  'plans.empty': { EN: 'No plans yet', AR: 'لا يوجد باقات بعد' },
+  'plans.emptyDesc': { EN: 'Subscription plans will appear here soon.', AR: 'هتظهر هنا باقات الاشتراك قريبًا.' },
+
+  'footer.rights': { EN: '© 2024 5JAD · Learn with intention.', AR: '© 2024 5JAD · اتعلّم بوعي.' },
+  'footer.privacy': { EN: 'Privacy', AR: 'الخصوصية' },
+  'footer.terms': { EN: 'Terms', AR: 'الشروط' },
+  'footer.contact': { EN: 'Contact', AR: 'تواصل معنا' },
+
+  'dash.home': { EN: 'Home', AR: 'الرئيسية' },
+  'dash.myCourses': { EN: 'My Courses', AR: 'كورساتي' },
+  'dash.materials': { EN: 'Materials', AR: 'الملفات' },
+  'dash.exams': { EN: 'Exams', AR: 'الامتحانات' },
+  'dash.progress': { EN: 'Progress', AR: 'تقدّمي' },
+  'dash.settings': { EN: 'Settings', AR: 'الإعدادات' },
+  'dash.signOut': { EN: 'Sign out', AR: 'تسجيل خروج' },
+  'dash.overview': { EN: 'Overview', AR: 'نظرة عامة' },
+  'dash.courses': { EN: 'Courses', AR: 'الكورسات' },
+  'dash.plans': { EN: 'Plans', AR: 'الباقات' },
+  'dash.paymentRequests': { EN: 'Payment requests', AR: 'طلبات الدفع' },
+  'dash.notifications': { EN: 'Notifications', AR: 'الإشعارات' },
+  'dash.content': { EN: 'Content & payments', AR: 'المحتوى والدفع' },
+  'dash.welcomeBack': { EN: 'Welcome back', AR: 'أهلًا بعودتك' },
+  'dash.adminWorkspace': { EN: 'Admin workspace', AR: 'لوحة الأدمن' },
+  'dash.goodMorning': { EN: 'Good morning', AR: 'أهلًا بيك' },
+} as const;
+
+export type DictKey = keyof typeof dict;
+
+export function translate(lang: Lang, key: DictKey): string {
+  return dict[key]?.[lang] ?? String(key);
+}
